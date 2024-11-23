@@ -14,6 +14,11 @@
 
 ## Descrição do projeto
 É uma plataforma que possui o objetivo de conectar os trabalhadores locais com empresas em sua área, promovendo a empregabilidade e o desenvolvimento econômico.
+### Tecnologias utilizadas
+No projeto, foram utilizadas as seguintes tecnologias:
+- HTML para a formatação do texto
+- CSS para a estilização do projeto
+- Extensão Live Server para o acompanhamento em tempo real do projeto
 
 ## Estrutura
 A plataforma possuirá uma página principal, em que estarão localizadas em seu header as informações sobre a organização e aplicação, como "Sobre", "Contato" e opções para a cadastro ou início de sessão.
