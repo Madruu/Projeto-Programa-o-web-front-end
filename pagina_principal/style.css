@@ -50,10 +50,21 @@ header .container_nav_bar{
     display: flex;
     height:100%;
     width:100%;
-    background-color: #333d29;
     border-radius: 20px;
     background: #a4ac86;
     border:none;
+    font-family: 'Pixelify Sans', sans-serif;
+    padding-left: 20px;
+}
+
+.containeer_nav_bar input:focus{
+    outline: none;
+}
+
+.container_nav_bar input::placeholder{
+    color: #333d29;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 .container_nav_bar #icone_pesquisa{
@@ -94,20 +105,6 @@ header .container_nav_bar{
     margin: 0;
 }
 
-/*.left-box {
-    flex: 1;
-    margin-right: 20px;
-    height: 532px;
-    width: 532px;
-}
-
-.left-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-*/
 .right-text {
     font-family: 'Pixelify Sans', sans-serif;
     flex: 2;
@@ -210,7 +207,7 @@ footer li a:hover{
     color: #656d4a;
 }
 
-footer .image_footer{
+/*footer .image_footer{
     height: 100px;
     width: 175px;
 }
@@ -218,10 +215,17 @@ footer .image_footer{
 .image_footer img{
     height: 100%;
     width: 100%;
-}
+}*/
 
 footer p{
     color: #d9dab8;
     font-size: 20px;
 }
 
+footer #contato a{
+    color: #d9dab8;
+}
+
+#contato a:hover{
+    color: #656d4a;
+}
