@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 2300px;
+    /*height: 2300px;*/
 }
 
 header {
@@ -39,6 +39,35 @@ header .container_informacoes{
     gap: 20px;
 }
 
+header .container_nav_bar{
+    display: flex;
+    align-items: center; /* Alinha o ícone e o input verticalmente */
+    width: 300px;
+    height: 50px;
+}
+
+.container_nav_bar input{
+    display: flex;
+    height:100%;
+    width:100%;
+    background-color: #333d29;
+    border-radius: 20px;
+    background: #a4ac86;
+    border:none;
+}
+
+.container_nav_bar #icone_pesquisa{
+    width:30px;
+    height:30px;
+    color: #a4ac86;
+    padding-right:10px;
+}
+
+.search-icon #icone_pesquisa{
+    width: 50px;
+    height: 50px;
+}
+
 .container {
     display: flex;
     position: relative;
@@ -51,6 +80,7 @@ header .container_informacoes{
     margin-top: 30px;
     border-radius: 20px;
     box-shadow: 10px 10px #656d4a;
+    margin-bottom:20px;
 }
 
 .container h1{
@@ -64,9 +94,8 @@ header .container_informacoes{
     margin: 0;
 }
 
-.left-box {
+/*.left-box {
     flex: 1;
-    background-color: #f1f1f1;
     margin-right: 20px;
     height: 532px;
     width: 532px;
@@ -78,7 +107,7 @@ header .container_informacoes{
     object-fit: cover;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-
+*/
 .right-text {
     font-family: 'Pixelify Sans', sans-serif;
     flex: 2;
@@ -99,6 +128,7 @@ header .container_informacoes{
     top: 7%;
     border-radius: 20px;
     box-shadow: 10px 10px #656d4a;
+    margin-bottom: 20px;
 }
 
 .container_ods .container_title{
@@ -158,3 +188,40 @@ button a:hover{
     text-decoration: none;
     color: #d9dab8;
 }
+
+footer{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    font-family: 'Pixelify Sans', sans-serif;
+    background: #333d29;
+    width: 100%; 
+    height: 100px; 
+    z-index: 1000; 
+    gap: 30px;
+}
+
+footer li a{
+    color: #d9dab8;
+    font-size: 24px;
+}
+
+footer li a:hover{
+    color: #656d4a;
+}
+
+footer .image_footer{
+    height: 100px;
+    width: 175px;
+}
+
+.image_footer img{
+    height: 100%;
+    width: 100%;
+}
+
+footer p{
+    color: #d9dab8;
+    font-size: 20px;
+}
+
