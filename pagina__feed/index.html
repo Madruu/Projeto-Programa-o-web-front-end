@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <title>Feed</title>
 </head>
 <body>
@@ -10,7 +14,8 @@
         <h1>HireProx</h1>
         <h2>Local workers with employers</h2>
         <div class="container_informacoes">
-            <h3><img src="figs/image_info.png" alt="" id="icon_information"> Feed </h3><!--Ver sobre a parte do header depois-->
+            <h3><img src="figs/image_info.png" alt="" id="icon_information"> <a href="../pagina__feed/index.html"> Feed </a></h3><!--Ver sobre a parte do header depois-->
+            
             <h3><img src="figs/image_home.png" alt="" id="icon_home"> Home </h3>
         </div>
         <div class="navigation_bar">
@@ -20,5 +25,62 @@
                 <input type="text" placeholder="Pesquisar">
             </div>
         </div>
+
+        <div class="profile">
+            <img src="figs/image_profile.png" alt="">
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Linha do tempo</h1>
+        <div class="right-text">
+            <p>Faça uma publicação</p>
+            <input type="text" name="" id="publish_field" placeholder="Compartilhe seus pensamentos!">
+        </div>
+    </div>
+
+    <div class="container_ods">
+        <h1 class="container_title">O que há de novo?</h1>
+        <div class="image_ods">
+            <img src="figs/image_maps_3.png" alt="">
+        </div>
+        <div class="text_ods">
+            <p id="anuncio_emprego">
+                Google está contratando!
+            </p>
+            <p id="job_description">
+                Na Google, não criamos apenas tecnologias, criamos possibilidades. Somos uma empresa global dedicada a organizar as informações do mundo e torná-las universalmente acessíveis e úteis. Se você é apaixonado(a) por inovação e deseja causar um impacto real na vida de bilhões de pessoas, queremos conhecer você!
+            </p>
+            <a href="../pagina_vaga/google.html" class="btn">Ver vaga</a>
+        </div>
+    </div>
+
+    <div class="container_ods">
+        <h1 class="container_title">O que há de novo?</h1>
+        <div class="image_ods">
+            <img src="figs/image_pizza.png" alt="">
+        </div>
+        <div class="text_ods">
+            <p id="anuncio_emprego">
+                Benavelli está contratando!
+            </p>
+            <p id="job_description">
+                A Pizzaria Benvanelli, conhecida por suas receitas autênticas e apaixonantes, está em busca de novos talentos para integrar nosso time! Somos mais do que uma pizzaria — somos uma experiência única que une sabor, tradição e qualidade, e queremos que você nos ajude a tornar isso ainda mais especial.
+            </p>
+            <a href="../pagina_vaga/benvanelli.html" class="btn">Ver vaga</a>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="">CV Gustavo Severiano</a><img src="figs/image_verified.png" alt=""></li>
+            <li><a href="">CV Vitor de Tulio</a><img src="figs/image_verified.png" alt=""></li>
+        </ul>
+        <!--<div class="image_footer">
+            <img src="figs/LOGO EXEMPLO-Photoroom-Photoroom.png" alt="">
+        </div>-->
+        <p>@2024 HireProx, Inc.</p>
+        <p id="contato"><a href="">Contato</a></p>
+    </footer>
 </body>
 </html>

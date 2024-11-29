@@ -204,7 +204,7 @@ header .register-or-login button{
     color: #333d29;
 }
 
-.text_ods button{
+.text_ods .btn{
     font-family: "Jersey 25", sans-serif;
     background-color: #333d29;
     color: #d9dab8;
@@ -217,12 +217,12 @@ header .register-or-login button{
     box-shadow: 10px 10px #656d4a;
 }
 
-button a{
+btn{
     text-decoration: none;
     color: #d9dab8;
 }
 
-button a:hover{
+btn:hover{
     text-decoration: none;
     color: #d9dab8;
 }
