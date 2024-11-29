@@ -241,6 +241,13 @@ header .profile{
     gap: 20px;
 }
 
+.text_ods #anuncio_emprego_2{
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .text_ods .btn{
     font-family: "Jersey 25", sans-serif;
     background-color: #333d29;
