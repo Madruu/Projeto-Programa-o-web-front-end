@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2c5aa;
+    background-image: url('figs/Imagem_pixels_DARK.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.login-container {
+    background-color: #a4ac86;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 10px #656d4a;
+    margin-top: 50px;
+}
+
+.login-container h2 {
+    color: #414833;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.login-container input {
+    width: 95%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #656d4a;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.login-container input:focus {
+    border-color: #414833;
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.login-container button {
+    font-family: 'Press Start 2P', cursive;
+    flex: 1;
+    padding: 10px;
+    background-color: #656d4a;
+    color: #414833;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-container button:hover {
+    background-color: #414833;
+    color: #a4ac86;
+}
+
+.voltar-button {
+    margin-left: 10px;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #414833;
+}
+
+.login-container a {
+    color: #656d4a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    color: #414833;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #a4ac86;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}

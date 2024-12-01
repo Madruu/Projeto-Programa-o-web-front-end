@@ -1,0 +1,76 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #c2c5aa;
+    background-image: url('figs/Imagem_pixels_DARK.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.cadastro-container {
+    background-color: #a4ac86;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 10px #656d4a;
+    margin-top: 50px;
+}
+
+.cadastro-container h2 {
+    color: #414833;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.cadastro-container input {
+    width: 95%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #656d4a;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.cadastro-container input:focus {
+    border-color: #414833;
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Para espaçar os botões igualmente */
+}
+
+.cadastro-container button {
+    width: 48%; /* Para fazer os botões ocuparem 48% do contêiner */
+    padding: 10px;
+    background-color: #656d4a;
+    color: #414833;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive; /* Adiciona a fonte ao botão */
+}
+
+.cadastro-container button:hover {
+    background-color: #414833;
+    color: #a4ac86;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #a4ac86;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
