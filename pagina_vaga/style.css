@@ -173,10 +173,6 @@ header .container_nav_bar{
     top: 150px;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
 .informacoes_vaga #subscribe{
     font-family: "Pixelify Sans", sans-serif;
     position: relative;
