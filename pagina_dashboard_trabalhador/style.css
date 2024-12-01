@@ -1,11 +1,10 @@
 body {
     display: flex;
-    flex-direction: column; /* Alinha os filhos em uma coluna (header em cima, conteúdo embaixo) */
+    flex-direction: column;
     background-image: url('figs/Imagem pixels DARK.jpg');
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /*height: 2300px;*/
 }
 
 header {
@@ -64,7 +63,7 @@ header .container_informacoes h3 a{
 
 header .container_nav_bar{
     display: flex;
-    align-items: center; /* Alinha o ícone e o input verticalmente */
+    align-items: center;
     width: 300px;
     height: 50px;
 }
@@ -139,29 +138,29 @@ header .container_nav_bar{
 }
 
 .container_layout {
-    display: flex; /* Coloca os containers lado a lado */
-    justify-content: center; /* Centraliza os containers horizontalmente */
+    display: flex; 
+    justify-content: center;
     align-items: center;
-    gap: 20px; /* Adiciona um espaço entre os containers */
+    gap: 20px; 
 }
 
 .container_layout .container_mensagens {
     display: flex;
     position: relative;
     min-height: 640px;
-    flex-direction: column; /* Continua com a direção das colunas dentro dos containers */
+    flex-direction: column;
     padding: 20px;
-    width: 30%; /* Tamanho fixo */
-    max-width: 30%; /* Garante que não ultrapasse 50px */
+    width: 30%;
+    max-width: 30%;
     border-radius: 20px;
     box-shadow: 10px 10px #656d4a;
     margin-bottom: 20px;
-    overflow: hidden; /* Oculta o conteúdo que ultrapassa */
+    overflow: hidden; 
 }
 
 .container_vagas_disponiveis {
     display: flex;
-    flex-direction: column; /* Continua com a direção das colunas dentro dos containers */
+    flex-direction: column; 
     min-height: 640px;
     padding: 20px;
     width: 50%;
@@ -173,8 +172,8 @@ header .container_nav_bar{
 .container_mensagens {
     background: rgb(51,61,41);
     background: linear-gradient(0deg, rgba(51,61,41,1) 0%, rgba(101,109,74,1) 100%);
-    width: 60%; /* Ajuste o tamanho conforme necessário */
-    height: 80%; /* Ajuste a altura conforme necessário */
+    width: 60%; 
+    height: 80%; 
 }
 
 .container_mensagens h2, h3, p{
@@ -185,8 +184,8 @@ header .container_nav_bar{
 
 .container_vagas_disponiveis {
     background-color: #d9dab8;
-    width: 30%; /* Ajuste o tamanho conforme necessário */
-    height: 80%; /* Ajuste a altura conforme necessário */
+    width: 30%; 
+    height: 80%; 
 }
 
 .container_vagas_disponiveis h2{
@@ -252,4 +251,61 @@ header .container_nav_bar{
     cursor: pointer;
     margin-top: 20px;
     box-shadow: 10px 10px #656d4a;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    font-family: 'Pixelify Sans', sans-serif;
+    background: #333d29;
+    width: 100%; 
+    height: 100px; 
+    gap: 30px;
+}
+
+footer ul{
+    list-style: circle;
+    color: #d9dab8;
+}
+
+footer li a{
+    color: #d9dab8;
+    font-size: 24px;
+}
+
+footer li a:hover{
+    color: #656d4a;
+}
+
+footer li img{
+    position: relative;
+    top:7px;
+    height: 30px;
+    width: 30px;
+    color: #d9dab8;
+    padding-left: 5px;
+}
+
+/*footer .image_footer{
+    height: 100px;
+    width: 175px;
+}
+
+.image_footer img{
+    height: 100%;
+    width: 100%;
+}*/
+
+footer p{
+    color: #d9dab8;
+    font-size: 20px;
+}
+
+footer #contato a{
+    color: #d9dab8;
+}
+
+#contato a:hover{
+    color: #656d4a;
 }
