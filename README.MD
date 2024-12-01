@@ -1,4 +1,4 @@
-![Alpha version](http://img.shields.io/static/v1?label=STATUS&message=ALPHA%20VERSION&color=GREEN&style=for-the-badge)
+![Fina version](http://img.shields.io/static/v1?label=STATUS&message=FINAL%20VERSION&color=GREEN&style=for-the-badge)
 # Projeto-Programa-o-web-front-end
 ## HireProx
 ### Membros do grupo
