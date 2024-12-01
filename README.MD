@@ -38,4 +38,4 @@ A página será reservada para a analise de detalhes de vagas. Possuirá
 ### Páginas de informação
 A aplicação também possuirá paginas para:
 - Página de Feed, contendo informações de vagas
-- Campo de contato, contendo um formulário para dúvidas, sugestões e feedback e informações como endereço de e-mail e redes sociais
+- Campo de contato, informações como endereço de e-mail e redes sociais
