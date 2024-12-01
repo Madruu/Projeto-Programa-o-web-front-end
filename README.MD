@@ -4,7 +4,7 @@
 ### Membros do grupo
 - Gustavo Henrique Severiano
 - Vitor Encinas Negrão de Tulio
-## Esboço possível logo  
+## Logo da empresa  
 ![LOGO_EXEMPLO-Photoroom-Photoroom](https://github.com/user-attachments/assets/085bd924-d0a5-498a-9452-b2e30020f7a7)
 ## ODS selecionada para o projeto:
 - Emprego digno e crescimento econômico
