@@ -56,6 +56,13 @@ header .container_informacoes #icon_home{
     width: 20px;
 }
 
+header .container_informacoes #icon_admin{
+    position: relative;
+    top: 3px;
+    height: 20px;
+    width: 20px;
+}
+
 header .container_informacoes #icon_information{
     position: relative;
     top: 3px;
